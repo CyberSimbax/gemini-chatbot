@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Configure Gemini
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["AIzaSyACkjIoqPbpHc-TT29oGOjRBCq9lA9IcLo"])
 
 @st.cache_resource
 def load_model():
