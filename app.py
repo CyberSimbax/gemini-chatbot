@@ -12,8 +12,8 @@ def load_model():
 model = load_model()
 chat = model.start_chat(history=[])
 
-st.set_page_config(page_title="Gemini Chatbot")
-st.title("🤖 Gemini-Powered Chat Assistant")
+st.set_page_config(page_title="CyberSimbax Chatbot")
+st.title("🦁 CyberSimbax A.I Assistant")
 
 # Initialize chat history
 if "messages" not in st.session_state:
