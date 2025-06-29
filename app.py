@@ -7,7 +7,7 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 @st.cache_resource
 def load_model():
-    return genai.GenerativeModel('gemini-pro')
+    return genai.GenerativeModel('gemini-1.5-pro')
 
 model = load_model()
 chat = model.start_chat(history=[])
